@@ -1,0 +1,25 @@
+name: deployment.yml
+on:
+  push:
+    tags:
+    - 'v[0-9]+.[0-9]+.[0-9]+*'
+
+jobs:
+  build_style_sheet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install Sass
+        run: npm install -g sass
+      - name: Compile Sass
+        run: sass src/scss:dist/css  # WIP
+      - name: Upload compiled CSS (Optional)
+        uses: actions/upload-artifact@v4
+        with:
+          name: compiled-css
+          path: dist/styles # Path to your compiled CSS files
