@@ -1,0 +1,9 @@
+name = "Yong Hyun, Lee"
+debug = false
+packages = ["./puepy-0.6.5-py3-none-any.whl"]
+
+[files]
+"./section/introduction.py" = "introduction.py"
+
+[js_modules.main]
+"https://cdn.jsdelivr.net/npm/morphdom@2.7.2/+esm" = "morphdom"
