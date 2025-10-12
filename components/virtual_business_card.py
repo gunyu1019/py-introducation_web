@@ -15,10 +15,14 @@ class VirtualBusinessCard(Component):
                 t.span("Software Engineer", classes=["business-card-footer-title"])
                 t.div(classes=["divider"])
                 with t.div(classes=["business-card-item"]):
+                    t.i(classes=["fab fa-linkedin"])
                     t.a("in/gunyu1019")
                 with t.div(classes=["business-card-item"]):
+                    t.i(classes=["fab fa-discord"])
                     t.a("@gunyu1019")
                 with t.div(classes=["business-card-item"]):
+                    t.i(classes=["fab fa-github"])
                     t.a("gunyu1019", href="https://github.com/gunyu1019")
                 with t.div(classes=["business-card-item"]):
+                    t.i(classes=["fas fa-envelope"])
                     t.a("gunyu1019@yhs.kr", href="")

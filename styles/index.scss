@@ -93,6 +93,7 @@ div.business-card {
     flex-wrap: nowrap;
     flex-direction: column;
     margin: 1.44rem;
+    width: 100%;
 
     span.business-card-footer-title {
       color: black;
@@ -103,11 +104,31 @@ div.business-card {
     }
 
     div.business-card-item {
-      color: black;
-      font-size: 1.44rem;
-      font-weight: 600;
-      line-height: 2.34rem;
-      word-wrap: break-word;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+
+      i {
+        font-size: 1.87rem;
+      }
+
+      a {
+        color: black;
+        margin: 0 0 0 .86rem;
+        text-decoration: none;
+        font-size: 1.44rem;
+        font-weight: 600;
+        line-height: 2.34rem;
+        word-wrap: break-word;
+      }
     }
+  }
+
+  div.divider {
+    border-radius: 1.5px;
+    background: #000000;
+    height: 3px;
+    width: 100%;
+    margin: .54rem 0 1.48rem 0;
   }
 }
