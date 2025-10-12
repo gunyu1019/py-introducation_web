@@ -1,0 +1,24 @@
+from puepy import Application, Page, Component, t
+
+
+@t.component()
+class VirtualBusinessCard(Component):
+    props = []
+
+    def populate(self):
+        with t.div(classes=["business-card"]):
+            with t.div(classes=["business-card-header"]):
+                t.span("이용현", classes=["business-card-header-title"])
+                t.span("Lee Yong Hyun", classes=["business-card-header-subtitle"])
+                t.img(src="assets/image/qr.png", classes=["business-card-qrcode"])
+            with t.div(classes=["business-card-footer"]):
+                t.span("Software Engineer", classes=["business-card-footer-title"])
+                t.div(classes=["divider"])
+                with t.div(classes=["business-card-item"]):
+                    t.a("in/gunyu1019")
+                with t.div(classes=["business-card-item"]):
+                    t.a("@gunyu1019")
+                with t.div(classes=["business-card-item"]):
+                    t.a("gunyu1019", href="https://github.com/gunyu1019")
+                with t.div(classes=["business-card-item"]):
+                    t.a("gunyu1019@yhs.kr", href="")
