@@ -3,7 +3,9 @@ debug = false
 packages = ["./puepy-0.6.5-py3-none-any.whl"]
 
 [files]
-"./section/introduction.py" = "introduction.py"
+"./styles/index.css" = "index.css"
+"./components/introduction.py" = "introduction.py"
+"./components/virtual_business_card.py" = "virtual_business_card.py"
 
 [js_modules.main]
 "https://cdn.jsdelivr.net/npm/morphdom@2.7.2/+esm" = "morphdom"
