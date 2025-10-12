@@ -1,0 +1,87 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
+
+div.about-components {
+  h3 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  span {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
+
+div.business-card {
+  align-content: space-between;
+  border: black solid 3px;
+  border-radius: 40px;
+
+  display: flex;
+  margin: 32px;
+  flex-wrap: wrap;
+  position: relative;
+
+  width: 540px;
+  height: 860px;
+  font-family: Pretendard;
+
+  div.business-card-header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    margin: 32px;
+    width: 100%;
+    height: 128px;
+    justify-content: center;
+
+    span.business-card-header-title {
+      color: #0070EE;
+      font-size: 84px;
+      font-weight: 700;
+      word-wrap: break-word;
+      line-height: 76px;
+    }
+
+    span.business-card-header-subtitle {
+      color: black;
+      font-size: 40px;
+      font-weight: 700;
+      word-wrap: break-word;
+      line-height: 52px;
+    }
+
+    img.business-card-qrcode {
+      width: 128px;
+      height: 128px;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+
+  div.business-card-footer {
+    display: flex ;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 32px;
+
+    span.business-card-footer-title {
+      color: black;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 52px;
+      word-wrap: break-word;
+    }
+
+    div.business-card-item {
+      color: black;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 52px;
+      word-wrap: break-word;
+    }
+  }
+}
