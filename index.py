@@ -4,6 +4,8 @@ from puepy import Application, Page, Component, t
 import introduction
 # noinspection PyUnresolvedReferences
 import virtual_business_card
+# noinspection PyUnresolvedReferences
+import project
 
 application = Application()
 
@@ -13,6 +15,7 @@ class MainPage(Page):
     def populate(self):
         with t.div():
             t.introduction()
+            t.project()
             t.virtual_business_card()
         return
 

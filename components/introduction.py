@@ -1,4 +1,4 @@
-from puepy import Application, Page, Component, t
+from puepy import Component, t
 
 
 @t.component()
