@@ -39,6 +39,22 @@ div.introduction {
   }
 }
 
+div.project {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+div.virtual-business-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
 div.business-card {
   align-content: space-between;
   border: black solid 3px;
