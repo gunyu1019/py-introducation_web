@@ -1,4 +1,5 @@
 from puepy import Component, t
+import js
 
 
 @t.component()
@@ -7,7 +8,7 @@ class VirtualBusinessCard(Component):
 
     def populate(self):
         with t.div(classes=["virtual-business-card"]):
-            with t.div(classes=["business-card"]):
+            with t.div(classes=["business-card"], ref="business-card"):
                 with t.div(classes=["business-card-header"]):
                     t.span("이용현", classes=["business-card-header-title"])
                     t.span("Lee Yong Hyun", classes=["business-card-header-subtitle"])
@@ -27,3 +28,11 @@ class VirtualBusinessCard(Component):
                     with t.div(classes=["business-card-item"]):
                         t.i(classes=["fas fa-envelope"])
                         t.a("gunyu1019@yhs.kr", href="mailto://gunyu1019@yhs.kr")
+
+    def on_ready(self):
+        self.refs["business-card"].add_event_listener(self.refs["business-card"].element, "mousemove", self.on_move_mouse)
+
+    def on_move_mouse(self, offset):
+        rotate_x = -0.15 * offset["offsetX"]
+        rotate_y = 0.01 * offset["offsetY"]
+        self.refs["business-card"].element.style = "transform: rotateX({}deg) rotateY({}deg);".format(rotate_x, rotate_y)
