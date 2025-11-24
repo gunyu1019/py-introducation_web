@@ -32,6 +32,7 @@ class VirtualBusinessCard(Component):
         self.refs["business-card"].add_event_listener(self.refs["business-card"].element, "mousemove", self.on_move_mouse)
 
     def on_move_mouse(self, offset):
+        offset.preventDefault()
         rotate_x = (offset["layerX"] - 583.2 / 2) / (583.2 / 2)
         rotate_y = (offset["layerY"] - 928.8 / 2) / (928.8 / 2)
         self.refs["business-card"].element.style = (
