@@ -33,6 +33,9 @@ class VirtualBusinessCard(Component):
         self.refs["business-card"].add_event_listener(self.refs["business-card"].element, "mousemove", self.on_move_mouse)
 
     def on_move_mouse(self, offset):
-        rotate_x = -0.15 * offset["offsetX"]
-        rotate_y = 0.01 * offset["offsetY"]
-        self.refs["business-card"].element.style = "transform: rotateX({}deg) rotateY({}deg);".format(rotate_x, rotate_y)
+        rotate_x = (offset["layerX"] - 583.2 / 2) / (583.2 / 2)
+        rotate_y = (offset["layerY"] - 928.8 / 2) / (928.8 / 2)
+        self.refs["business-card"].element.style = (
+            f"transform: rotate3D({rotate_y}, {rotate_x}, 0, -20deg);"
+            f"box-shadow: {-rotate_x * 5}px {-rotate_y * 5}px #50505080;"
+        )
