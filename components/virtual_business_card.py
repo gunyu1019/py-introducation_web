@@ -1,5 +1,4 @@
 from puepy import Component, t
-import js
 
 
 @t.component()

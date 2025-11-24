@@ -3,6 +3,7 @@ debug = false
 packages = ["./puepy-0.6.5-py3-none-any.whl"]
 
 [files]
+"./config/project.json" = "project.json"
 "./styles/index.css" = "index.css"
 "./components/introduction.py" = "introduction.py"
 "./components/project.py" = "project.py"
