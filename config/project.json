@@ -1,0 +1,94 @@
+[
+  {
+    "image": null,
+    "title": "MyBUS",
+    "framework": ["Android", "Kotlin"],
+    "description": [
+      "웨어러블(WearOS)에서 실시간 대중교통 정보를 알아볼 수 있는 애플리케이션 입니다.\n",
+      "갤럭시 워치 등의 안드로이드 웨어러블 OS가 증가하는 추세에 국내 대중교통를 알아볼 수 있는 애플리케이션이 없었고, ",
+      "\"휴대폰을 꺼내지 않고, 버스 정보를 쉽게 얻을 수 있으면 어떨까?\"라는 발상에서 시작된 프로젝트입니다. \n",
+      "프론트엔드는 Kotlin으로, 백엔드는 Python으로 구성하였으며 국내에서 첫 서비스를 진행한 애플리케이션입니다. "
+    ],
+    "date": "2022. 03. ~ 2023. 01.",
+    "button": [
+      {
+        "icon": null,
+        "url": "https://github.com/gunyu1019/MyBUS",
+        "title": "Source Code"
+      }
+    ]
+  }, {
+    "image": null,
+    "title": "PUBG BOT",
+    "framework": ["Python"],
+    "description": [
+      "디스코드 채널에서 배틀그라운드 전적 불러올 수 있는 디스코드 봇입니다.\n",
+      "약 5,000 서버와 약 30,000명의 사용자가 이용하고 있으며, 배틀그라운드 플레이 기록을 이미지 형태로 채팅에 공유할 수 있습니다.",
+      "배틀그라운드 게임을 즐기는 여러 커뮤니티에서 이용하고 있는 뿌리가 깊은 프로젝트입니다."
+    ],
+    "date": "2020. 04. ~ 2023. 08.",
+    "button": [
+      {
+        "icon": null,
+        "url": "https://github.com/gunyu1019/PUBG-BOT",
+        "title": "Source Code"
+      }, {
+        "icon": null,
+        "url": "https://pubg.yhs.kr/invite",
+        "title": "Invite Bot"
+      }
+    ]
+  }, {
+    "image": null,
+    "title": "chzzkpy",
+    "framework": ["Python"],
+    "description": [
+      "치지직(네이버 실시간 스트리밍 서비스)의 파이썬 기반 SDK 입니다.\n",
+      "파이썬 언어를 이용하여 치지직 채팅봇을 쉽게 개발할 수 있도록 도와주는 프레임워크입니다."
+    ],
+    "date": "2024. 02. ~ 2024. 06.",
+    "button": [
+      {
+        "icon": null,
+        "url": "https://github.com/gunyu1019/chzzkpy",
+        "title": "Source Code"
+      }, {
+        "icon": null,
+        "url": "https://chzzkpy.yhs.kr/ko/",
+        "title": "Documentation"
+      }, {
+        "icon": null,
+        "url": "https://pypi.org/p/chzzkpy",
+        "title": "PyPi"
+      }
+    ]
+  }, {
+    "image": null,
+    "title": "Kakao Map SDK with Flutter",
+    "framework": ["Flutter", "Android", "iOS","Web"],
+    "description": [
+      "Flutter 환경에서 카카오 지도를 사용할 수 있도록 구현한 프레임워크입니다. \n",
+      "Flutter는 Android, iOS 외에도 웹 어셈블리(Web Assembly)를 활용한 웹 환경까지 구현할 수 있는 크로스-플랫폼 프레임워크로 ",
+      "Dart로 작성한 하나의 소스코드로 여러 플랫폼을 지원하는 애플리케이션을 한 번에 만들어낼 수 있습니다. \n\n",
+      "저는 발전 가능성이 높은 Flutter 생태계에 기여하고 싶은 마음에 카카오 지도를 Flutter 환경에서 이용할 수 있도록 패키지를 개발하였습니다. ",
+      "네이티브 SDK를 기반으로 두고 있어 우수한 성능을 가지고 있으며, Web SDK까지 모두 패키지로 구현하여 ",
+      "어느 환경에 제약받지 않고 카카오 지도를 이용하여 서비스를 개발할 수 있도록 프로젝트를 진행하였습니다."
+    ],
+    "date": "2024. 10. ~ 2025. 04.",
+    "button": [
+      {
+        "icon": null,
+        "url": "https://github.com/gunyu1019/flutter_kakao_maps",
+        "title": "Source Code"
+      }, {
+        "icon": null,
+        "url": "https://gunyu1019.gitbook.io/kakao-map-sdk/",
+        "title": "Documentation"
+      }, {
+        "icon": null,
+        "url": "https://pub.dev/packages/kakao_map_sdk",
+        "title": "Pub.Dev"
+      }
+    ]
+  }
+]
