@@ -58,15 +58,15 @@ div.virtual-business-card {
 div.business-card {
   align-content: space-between;
   border: black solid 3px;
-  border-radius: 1.92rem;
+  border-radius: 2.88rem;
 
   display: flex;
-  margin: 1.44rem;
+  margin: 2.16rem;
   flex-wrap: wrap;
   position: relative;
 
-  width: 24.3rem;
-  height: 38.7rem;
+  width: 36.45rem;
+  height: 58.05rem;
   font-family: Pretendard;
 
   transition: all 0.1s;
@@ -76,30 +76,30 @@ div.business-card {
     flex-wrap: wrap;
     flex-direction: column;
     position: relative;
-    margin: 1.44rem;
+    margin: 2.16rem;
     width: 100%;
-    height: 5.76rem;
+    height: 8.64rem;
     justify-content: center;
 
     span.business-card-header-title {
       color: #0070EE;
-      font-size: 3.78rem;
+      font-size: 5.67rem;
       font-weight: 700;
       word-wrap: break-word;
-      line-height: 3.78rem;
+      line-height: 5.67rem;
     }
 
     span.business-card-header-subtitle {
       color: black;
-      font-size: 1.8rem;
+      font-size: 2.7rem;
       font-weight: 700;
       word-wrap: break-word;
-      line-height: 1.8rem;
+      line-height: 2.7rem;
     }
 
     img.business-card-qrcode {
-      width: 5.76rem;
-      height: 5.76rem;
+      width: 8.64rem;
+      height: 8.64rem;
       position: absolute;
       right: 0;
       top: 0;
@@ -110,14 +110,14 @@ div.business-card {
     display: flex ;
     flex-wrap: nowrap;
     flex-direction: column;
-    margin: 1.44rem;
+    margin: 2.16rem;
     width: 100%;
 
     span.business-card-footer-title {
       color: black;
-      font-size: 2.16rem;
+      font-size: 3.24rem;
       font-weight: 700;
-      line-height: 2.34rem;
+      line-height: 3.51rem;
       word-wrap: break-word;
     }
 
@@ -127,16 +127,16 @@ div.business-card {
       flex-direction: row;
 
       i {
-        font-size: 1.87rem;
+        font-size: 2.805rem;
       }
 
       a {
         color: black;
-        margin: 0 0 0 .86rem;
+        margin: 0 0 0 1.2rem;
         text-decoration: none;
-        font-size: 1.44rem;
+        font-size: 2.16rem;
         font-weight: 600;
-        line-height: 2.34rem;
+        line-height: 3.51rem;
         word-wrap: break-word;
       }
     }
@@ -147,6 +147,6 @@ div.business-card {
     background: #000000;
     height: 3px;
     width: 100%;
-    margin: .54rem 0 1.48rem 0;
+    margin: .81rem 0 2.22rem 0;
   }
 }
