@@ -1,5 +1,23 @@
 [
   {
+    "image": null,
+    "title": "Personal Finance MCP",
+    "framework": ["MCP(Model Context Protocol)", "Python"],
+    "description": [
+      "개인 자산 정보(마이데이터)를 MCP 프로토콜을 지원하는 LLM 모델과 연동하여 맞춤형 자산 관리 피드백을 제공받을 수 있는 프로젝트입니다. ",
+      "파이썬의 FastMCP와 FastAPI, C사의 마이데이터 API를 이용하여 구현하였으며, 사용자가 활성화한 계좌와 카드 정보를 LLM 모델에 제공하여, 입금과 출금 기록, 신용카드 승인 거래 기록을 바탕으로 최적의 분석 결과를 제공받을 수 있습니다.\n\n",
+      "이 프로젝트는 지금까지 제공되고 있는 가계부 애플리케이션(토O, 뱅크OOO 등)에서 제공하는 1차원적인 소비 데이터를 사용자의 소비 패턴에 맞춰서 정밀하게 분석하고, 사용자의 요구사항에 따라 최적의 분석 정보를 제공하는 것을 목표로 둔 프로젝트입니다.\n\n",
+      "더치페이 결제와 같은 특수한 소비 패턴을 고려한 소비 데이터를 분석할 수 없을까?라는 관점에서 시작된 프로젝트입니다."
+    ],
+    "date": "2026. 02. ~ 2026. 04.",
+    "button": [
+      {
+        "icon": null,
+        "url": "https://github.com/gunyu1019/personal_finance_mcp",
+        "title": "Github"
+      }
+    ]
+  }, {
     "image": "mybus.png",
     "title": "MyBUS",
     "framework": ["Android", "Kotlin"],
@@ -14,7 +32,7 @@
       {
         "icon": null,
         "url": "https://github.com/gunyu1019/MyBUS",
-        "title": "Source Code"
+        "title": "Github"
       }
     ]
   }, {
@@ -31,11 +49,11 @@
       {
         "icon": null,
         "url": "https://github.com/gunyu1019/PUBG-BOT",
-        "title": "Source Code"
+        "title": "Github"
       }, {
         "icon": null,
         "url": "https://pubg.yhs.kr/invite",
-        "title": "Invite Bot"
+        "title": "Discord"
       }
     ]
   }, {
@@ -44,14 +62,16 @@
     "framework": ["Python"],
     "description": [
       "치지직(네이버 실시간 스트리밍 서비스)의 파이썬 기반 SDK 입니다.\n",
-      "파이썬 언어를 이용하여 치지직 채팅봇을 쉽게 개발할 수 있도록 도와주는 프레임워크입니다."
+      "파이썬 언어를 이용하여 치지직 채팅봇을 쉽게 개발할 수 있도록 도와주는 프레임워크입니다.\n\n",
+      "치지직 SDK에서 사용하는 Socket.IO, Engine.IO 프레임워크부터 전반적인 네트워크 소통 과정을 치지직 API 환경에 알맞게 설계하였으며, ",
+      "45개의 깃허브 스타와 월 1K 이상의 다운로드 성과를 통해 치지직 API를 대표하는 파이썬 기반의 SDK 입니다."
     ],
     "date": "2024. 02. ~ 2024. 06.",
     "button": [
       {
         "icon": null,
         "url": "https://github.com/gunyu1019/chzzkpy",
-        "title": "Source Code"
+        "title": "Github"
       }, {
         "icon": null,
         "url": "https://chzzkpy.yhs.kr/ko/",
@@ -59,6 +79,33 @@
       }, {
         "icon": null,
         "url": "https://pypi.org/p/chzzkpy",
+        "title": "PyPi"
+      }
+    ]
+  },  {
+    "image": null,
+    "title": "ahttp-client",
+    "framework": ["Python"],
+    "description": [
+      "파이썬의 decorator 기술과 typing.Annotated 기술을 이용하여 HTTP 클라이언트를 구현할 수 있는 파이썬 패키지입니다.",
+      "aiohttp (비동기 HTTP 통신 패키지)를 기반으로 두고 있으며, ",
+      "개발자는 함수 정의와 데코레이션(decoration) 정의를 통해 세션 관리, 인증 처리, 모델 직렬화 등의 복잡한 절차 없이 HTTP 클라이언트 객체를 구현할 수 있도록 메타 프로그래밍을 지향할 수 있도록 기능을 제공하는 프레임워크입니다.\n\n",
+      "최근에는 json, xml 형태의 OpenAPI 스펙만 가지고 소스코드를 생성할 수 있도록 ahttp-generator를 제작하였으며, 2026년 3분기 내에 배포될 예정입니다.", 
+      "나아가 aiohttp(비동기 HTTP 프레임워크), pydantic(데이터모델 프레임워크)에 의존하고 있지만, httpx, requests 등의 다른 HTTP 프레임워크와 marshmallow, sqlalchemy 등의 다른 데이터모델 직렬화 프레임워크와 호환을 목표로 v2 개발을 진행하려고 합니다."
+    ],
+    "date": "2024. 02. ~ 2024. 06.",
+    "button": [
+      {
+        "icon": null,
+        "url": "https://github.com/gunyu1019/ahttp-client",
+        "title": "Github"
+      }, {
+        "icon": null,
+        "url": "https://gunyu1019.github.io/ahttp-client/ko/",
+        "title": "Documentation"
+      }, {
+        "icon": null,
+        "url": "https://pypi.org/p/ahttp-client",
         "title": "PyPi"
       }
     ]
@@ -79,7 +126,7 @@
       {
         "icon": null,
         "url": "https://github.com/gunyu1019/flutter_kakao_maps",
-        "title": "Source Code"
+        "title": "Github"
       }, {
         "icon": null,
         "url": "https://gunyu1019.gitbook.io/kakao-map-sdk/",
@@ -87,7 +134,7 @@
       }, {
         "icon": null,
         "url": "https://pub.dev/packages/kakao_map_sdk",
-        "title": "Pub.Dev"
+        "title": "pub.dev"
       }
     ]
   }
