@@ -93,7 +93,7 @@
       "최근에는 json, xml 형태의 OpenAPI 스펙만 가지고 소스코드를 생성할 수 있도록 ahttp-generator를 제작하였으며, 2026년 3분기 내에 배포될 예정입니다.", 
       "나아가 aiohttp(비동기 HTTP 프레임워크), pydantic(데이터모델 프레임워크)에 의존하고 있지만, httpx, requests 등의 다른 HTTP 프레임워크와 marshmallow, sqlalchemy 등의 다른 데이터모델 직렬화 프레임워크와 호환을 목표로 v2 개발을 진행하려고 합니다."
     ],
-    "date": "2024. 02. ~ 2024. 06.",
+    "date": "2023. 11. ~ 2024. 01.",
     "button": [
       {
         "icon": null,
